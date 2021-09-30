@@ -1,6 +1,6 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+This repo contains an A* Search Algorithm which is used to determine the shortest distance between two points on a grid. In this project, the OpenStreetMap project is used for the map data. 
 
 <img src="map.png" width="600" height="450" />
 
@@ -14,6 +14,9 @@ or with SSH:
 ```
 git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
 ```
+
+## Installation Tips
+As a windows user, I had a very difficult time getting IO2D to work with my Windows machine. My suggestion, which worked for me, is to run this using a linux virtual machine.
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
